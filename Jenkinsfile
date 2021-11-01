@@ -11,10 +11,6 @@ pipeline {
                 	sh "mvn test"          	 
             	}     	 
         	}	
-stage("JavaCompile") {          	 
-        	steps {               	 
-                	sh "java TicketnumberApplication"          	 
-            	}     	 
-        	}			
+		
     	}
 }
